@@ -1,8 +1,8 @@
 # win-watcher
 Get killed, started, running, top processes on Windows
 
-[![npm](https://img.shields.io/npm/v/gradver.svg)](https://www.npmjs.com/package/win-watcher)
-[![npm](https://img.shields.io/npm/dm/gradver.svg)](https://www.npmjs.com/package/win-watcher)
+[![npm](https://img.shields.io/npm/v/win-watcher.svg)](https://www.npmjs.com/package/win-watcher)
+[![npm](https://img.shields.io/npm/dm/win-watcher.svg)](https://www.npmjs.com/package/win-watcher)
 
 # Install
 
@@ -36,12 +36,12 @@ win.on('start', p => {
 
 ### module(runningInterval, focusInterval)
 
-`Number` runningInterval: milliseconds for check new/killed processed. (**Default** 500)
+- `Number` runningInterval: milliseconds for check new/killed processed. (**Default** 500)
 
-`Number` focusInterval: milliseconds of interval for check top process. (**Default** 200)
+- `Number` focusInterval: milliseconds of interval for check top process. (**Default** 200)
 
 ### isRunning(process)
-`String` process: name of process.
+- `String` process: name of process.
 **Return** if process is running.
 
 ### getTopProcess()
