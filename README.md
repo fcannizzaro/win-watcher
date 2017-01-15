@@ -17,7 +17,7 @@ npm i --save win-watcher
 
 ```javascript
 var windows = require('win-watcher')
-var win = windows()
+var win = windows(500,250)
 
 win.on('focus', p => {
   console.log('  >> Top Process: %s <<', p)
