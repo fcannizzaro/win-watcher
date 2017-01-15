@@ -1,6 +1,9 @@
 # win-watcher
 Get killed, started, running, top processes on Windows
 
+[![npm](https://img.shields.io/npm/v/gradver.svg)](https://www.npmjs.com/package/win-watcher)
+[![npm](https://img.shields.io/npm/dm/gradver.svg)](https://www.npmjs.com/package/win-watcher)
+
 # Install
 
 ```sh
