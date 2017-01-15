@@ -6,18 +6,15 @@
   "scripts": {
     "install": "node-gyp rebuild"
   },
-  "author": {
-    "name": "Francesco Cannizzaro",
-    "email": "francescosaverio.cannizzaro@gmail.com"
-  },
+  "author": "Francesco Cannizzaro <francescosaverio.cannizzaro@gmail.com>",
   "license": "MIT",
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fcannizzaro/win-processes.git"
+    "url": "git+https://github.com/fcannizzaro/win-watcher.git"
   },
   "bugs": {
-    "url": "https://github.com/fcannizzaro/win-processes/issues"
+    "url": "https://github.com/fcannizzaro/win-watcher/issues"
   },
-  "homepage": "https://github.com/fcannizzaro/win-processes#readme"
+  "homepage": "https://github.com/fcannizzaro/win-watcher#readme"
 }
