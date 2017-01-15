@@ -1,0 +1,23 @@
+{
+  "name": "win-watcher",
+  "version": "1.0.0",
+  "description": "Get killed, started, running, on top processes on Windows",
+  "main": "src/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "author": {
+    "name": "Francesco Cannizzaro",
+    "email": "francescosaverio.cannizzaro@gmail.com"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcannizzaro/win-processes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fcannizzaro/win-processes/issues"
+  },
+  "homepage": "https://github.com/fcannizzaro/win-processes#readme"
+}
