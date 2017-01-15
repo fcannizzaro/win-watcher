@@ -13,7 +13,7 @@ npm i --save win-watcher
 # Usage
 
 ```javascript
-var windows = require('win-processes')
+var windows = require('win-watcher')
 var win = windows()
 
 win.on('focus', p => {
