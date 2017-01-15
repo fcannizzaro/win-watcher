@@ -11,7 +11,7 @@ npm i --save win-watcher
 ```
 
 ### Requirements
-[node-gyp](https://github.com/nodejs/node-gyp#installation) to build **src/win.cpp**
+[node-gyp](https://github.com/nodejs/node-gyp#installation) to build **src/win.cc**
 
 # Usage
 

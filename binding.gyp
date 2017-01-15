@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "win_process",
-      "sources": [ "src/win.cpp" ]
+      "sources": [ "src/win.cc" ]
     }
   ]
 }
