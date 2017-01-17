@@ -36,7 +36,7 @@ win.on('start', p => {
 
 ### module(runningInterval, focusInterval)
 
-- `Number` runningInterval: milliseconds for check new/killed processed. (**Default** 500)
+- `Number` runningInterval: milliseconds for check new/killed processes. (**Default** 500)
 
 - `Number` focusInterval: milliseconds of interval for check top process. (**Default** 200)
 

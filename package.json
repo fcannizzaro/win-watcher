@@ -1,6 +1,6 @@
 {
   "name": "win-watcher",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get killed, started, running, on top processes on Windows",
   "main": "src/index.js",
   "scripts": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/fcannizzaro/win-watcher/issues"
   },
-  "homepage": "https://github.com/fcannizzaro/win-watcher#readme"
+  "homepage": "https://github.com/fcannizzaro/win-watcher#readme",
+  "keywords": [
+    "process",
+    "processes",
+    "windows"
+  ]
 }
