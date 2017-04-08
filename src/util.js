@@ -1,8 +1,8 @@
-const cp = require('child_process')
-const regexExe = /((.*).exe).*/g
+const cp = require('child_process');
+const regexExe = /((.*).exe).*/g;
 
 /**
- *  @return Promise, resolve will contain running processes
+ *  @return Promise, resolve will return running processes
  */
 exports.running = () => {
 
@@ -11,21 +11,21 @@ exports.running = () => {
     cp.exec('tasklist /fi "Status eq RUNNING"', (err, stdout, stderr) => {
 
       if (err || stderr)
-        return reject(err || stderr)
+        return reject(err || stderr);
 
-      let processes = []
-      let m = regexExe.exec(stdout)
+      let processes = [];
+      let m = regexExe.exec(stdout);
 
       while (m) {
-        processes.push(m[1])
-        m = regexExe.exec(stdout)
+        processes.push(m[1]);
+        m = regexExe.exec(stdout);
       }
 
-      resolve(processes)
+      resolve(processes);
 
-    })
+    });
 
-  })
+  });
 
 }
 
@@ -38,5 +38,5 @@ exports.diff = (a1, a2) => {
   return {
     left: a1.filter(x => a2.indexOf(x) < 0),
     right: a2.filter(x => a1.indexOf(x) < 0)
-  }
+  };
 }
